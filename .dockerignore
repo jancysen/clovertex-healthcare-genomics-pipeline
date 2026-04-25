@@ -1,0 +1,8 @@
+datalake/
+.git/
+.github/
+__pycache__/
+*.pyc
+venv/
+.venv/
+data_quality_report.json

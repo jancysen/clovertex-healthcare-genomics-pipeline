@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  pipeline:
+    build: .
+    container_name: clovertex_pipeline
+    volumes:
+      - ./data:/app/data
+      - ./datalake:/app/datalake
+      - ./data_quality_report.json:/app/data_quality_report.json
+    environment:
+      - PYTHONUNBUFFERED=1
