@@ -10,6 +10,7 @@ def clean_genomics_data(df, valid_patient_ids, dataset_name="genomics_variants")
     if df.empty:
         return df
 
+
     rows_in = len(df)
     issues_found = {
         "duplicates_removed": 0,
