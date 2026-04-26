@@ -1,0 +1,68 @@
+[
+    {
+        "filename": "anomaly_flags.parquet",
+        "file_path": "datalake/consumption/anomaly_flags.parquet",
+        "row_count": 0,
+        "schema": {},
+        "processing_timestamp": "2026-04-25T16:56:47Z",
+        "sha256_checksum": "767d4eaed9880a7b072f4d435773b59105cb92930ad8d2b4a8a1f62b686764c3"
+    },
+    {
+        "filename": "diagnosis_frequency.parquet",
+        "file_path": "datalake/consumption/diagnosis_frequency.parquet",
+        "row_count": 18,
+        "schema": {
+            "icd10_chapter": "str",
+            "frequency": "int64"
+        },
+        "processing_timestamp": "2026-04-25T16:56:47Z",
+        "sha256_checksum": "b68bbbd07e18976235fb1a9e76b20c3bdb4efba995dd09f436b5891310dc9d9c"
+    },
+    {
+        "filename": "patient_summary.parquet",
+        "file_path": "datalake/consumption/patient_summary.parquet",
+        "row_count": 2,
+        "schema": {
+            "category": "str",
+            "metric": "str",
+            "value": "int64"
+        },
+        "processing_timestamp": "2026-04-25T16:56:47Z",
+        "sha256_checksum": "97aa27ea58a4f664ac31c048ccafd925250c3f517c672e26540efefb51f14301"
+    },
+    {
+        "filename": "variant_hotspots.parquet",
+        "file_path": "datalake/consumption/variant_hotspots.parquet",
+        "row_count": 5,
+        "schema": {
+            "gene": "str",
+            "variant_count": "int64"
+        },
+        "processing_timestamp": "2026-04-25T16:56:47Z",
+        "sha256_checksum": "0fe5c71b0710479eb101b591abc64a53ed6dbf1f9205d46a625c929a304f595e"
+    },
+    {
+        "filename": "2_gender_distribution.png",
+        "file_path": "datalake/consumption/plots/2_gender_distribution.png",
+        "row_count": 0,
+        "schema": {},
+        "processing_timestamp": "2026-04-25T16:56:47Z",
+        "sha256_checksum": "2818d9572d582289afe8fd7aaa7f868f89ac8fa3b8fe649d03ec46c214c05e7c"
+    },
+    {
+        "filename": "3_diagnosis_frequency.png",
+        "file_path": "datalake/consumption/plots/3_diagnosis_frequency.png",
+        "row_count": 0,
+        "schema": {},
+        "processing_timestamp": "2026-04-25T16:56:47Z",
+        "sha256_checksum": "68939fad30243f8241b46532214343c9f82d0f833d65bb48350005a12a473b87"
+    },
+    {
+        "filename": "genomics_hotspots.png",
+        "file_path": "datalake/consumption/plots/genomics_hotspots.png",
+        "row_count": 0,
+        "schema": {},
+        "processing_timestamp": "2026-04-25T16:56:47Z",
+        "sha256_checksum": "2fea3a3eb31ef96edfdaeaa7b9a1148b2d6dc692e67b14fb3f7de5ea7195be25"
+    }
+]

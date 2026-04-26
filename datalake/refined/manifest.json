@@ -1,0 +1,106 @@
+[
+    {
+        "filename": "diagnoses_cleaned.parquet",
+        "file_path": "datalake/refined/diagnoses_cleaned.parquet",
+        "row_count": 292,
+        "schema": {
+            "diagnosis_id": "str",
+            "patient_id": "str",
+            "icd10_code": "str",
+            "description": "str",
+            "diagnosis_date": "str",
+            "diagnosing_physician": "str",
+            "is_primary": "str",
+            "notes": "float64",
+            "severity": "str",
+            "status": "str"
+        },
+        "processing_timestamp": "2026-04-25T16:56:47Z",
+        "sha256_checksum": "084a3abc5347ee5ce033aa3593271192632fb92a45b0fc00c1207f34e6de429c"
+    },
+    {
+        "filename": "genomics_cleaned.parquet",
+        "file_path": "datalake/refined/genomics_cleaned.parquet",
+        "row_count": 584,
+        "schema": {
+            "variant_id": "str",
+            "patient_ref": "str",
+            "gene": "str",
+            "chromosome": "str",
+            "position": "int64",
+            "ref_allele": "str",
+            "alt_allele": "str",
+            "variant_type": "str",
+            "allele_frequency": "float64",
+            "read_depth": "int64",
+            "clinical_significance": "str",
+            "sample_date": "str",
+            "sequencing_platform": "str"
+        },
+        "processing_timestamp": "2026-04-25T16:56:47Z",
+        "sha256_checksum": "4d1d9e5bda3b6bb9113977a54b1de9b4f68619d714e4adacc5df9e4a598533ba"
+    },
+    {
+        "filename": "labs_cleaned.parquet",
+        "file_path": "datalake/refined/labs_cleaned.parquet",
+        "row_count": 2026,
+        "schema": {
+            "lab_result_id": "str",
+            "patient_ref": "str",
+            "test_name": "str",
+            "test_value": "float64",
+            "test_unit": "str",
+            "collection_date": "str",
+            "ordering_physician": "str",
+            "site_name": "str"
+        },
+        "processing_timestamp": "2026-04-25T16:56:47Z",
+        "sha256_checksum": "1da2042bd5864002ca58ec3ebb204f126367202271131102faed5dd9a18d45f3"
+    },
+    {
+        "filename": "medications_cleaned.parquet",
+        "file_path": "datalake/refined/medications_cleaned.parquet",
+        "row_count": 377,
+        "schema": {
+            "medication_id": "str",
+            "patient_id": "str",
+            "medication_name": "str",
+            "dosage": "str",
+            "route": "str",
+            "frequency": "str",
+            "start_date": "str",
+            "end_date": "str",
+            "prescribing_physician": "str",
+            "status": "str"
+        },
+        "processing_timestamp": "2026-04-25T16:56:47Z",
+        "sha256_checksum": "faead6b1c548baf24c9a5aa4628049184c7eb30dd491a9fafaf3d503958c02c0"
+    },
+    {
+        "filename": "patients_master.parquet",
+        "file_path": "datalake/refined/patients_master.parquet",
+        "row_count": 358,
+        "schema": {
+            "patient_id": "str",
+            "first_name": "str",
+            "last_name": "str",
+            "date_of_birth": "str",
+            "sex": "str",
+            "blood_group": "str",
+            "admission_dt": "str",
+            "discharge_dt": "str",
+            "contact_phone": "str",
+            "contact_email": "str",
+            "site": "str",
+            "patientid": "str",
+            "name": "str",
+            "birthdate": "datetime64[ms]",
+            "gender": "str",
+            "bloodtype": "str",
+            "encounter": "str",
+            "contact": "str"
+        },
+        "processing_timestamp": "2026-04-25T16:56:47Z",
+        "sha256_checksum": "9d17e4579836a48c69217e21fef6aafd6394af30a16a87c679c3c5c0c26a2ad9"
+    }
+]
